@@ -4,10 +4,10 @@ import { portfolioData } from '../../data/portfolio'
 import { Shield, Code, Server, Brain } from 'lucide-react'
 
 const strengthIcons = {
-  'Security-First Mindset': Shield,
-  'Full-Stack Development': Code,
-  'DevOps & Automation': Server,
-  'Continuous Learning': Brain,
+  cybersecurity: Shield,
+  development: Code,
+  devops: Server,
+  learning: Brain,
 }
 
 export default function About() {
@@ -36,7 +36,7 @@ export default function About() {
         {/* Strengths */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {about.strengths.map((strength, index) => {
-            const Icon = strengthIcons[strength.title] || Shield
+            const Icon = strengthIcons[strength] || Shield
             return (
               <motion.div
                 key={index}
@@ -52,12 +52,9 @@ export default function About() {
                     <Icon size={20} className="text-neon-purple" />
                   </div>
                   <h3 className="text-lg font-bold text-white">
-                    {strength.title}
+                    {strength}
                   </h3>
                 </div>
-                <p className="text-gray-400 text-sm leading-relaxed">
-                  {strength.description}
-                </p>
               </motion.div>
             )
           })}

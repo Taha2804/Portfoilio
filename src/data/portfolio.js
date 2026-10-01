@@ -4,10 +4,10 @@ export const portfolioData = {
     title: 'Security Specialist & Full-Stack Developer',
     tagline: 'Securing systems. Building solutions.',
     email: 'taha.badami@example.com',
-    links: {
+    social: {
       github: 'https://github.com/yourusername',
       linkedin: 'https://linkedin.com/in/yourusername',
-      twitter: 'https://twitter.com/yourusername',
+      website: 'https://yourusername.dev',
     },
   },
 
