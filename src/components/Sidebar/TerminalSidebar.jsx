@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import TerminalInput from './TerminalInput'
 import TerminalOutput from './TerminalOutput'
+import TerminalStatus from './TerminalStatus'
 import { getCommandResponse, getSectionIdFromCommand } from '../../utils/commandExecutor'
 import { scrollToSection } from '../../utils/scrollToSection'
 import { Terminal, X, ChevronUp, ChevronDown } from 'lucide-react'
@@ -163,6 +164,7 @@ export default function TerminalSidebar() {
                 <span className="text-faint text-xs ml-2 flex-1">
                   terminal — visitor@portfolio
                 </span>
+                <TerminalStatus status="connected" />
                 <button
                   onClick={() => setIsOpen(false)}
                   className="text-faint hover:text-text transition"

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { portfolioData } from '../../data/portfolio'
 import { ChevronDown } from 'lucide-react'
+import CountUp from '../Animations/CountUp'
 
 export default function Hero() {
   const { name, title, tagline, email } = portfolioData.personal
@@ -77,13 +78,13 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1.7 }}
         >
           {[
-            { value: '3', label: 'Certifications' },
-            { value: '1', label: 'Professional role' },
-            { value: '6', label: 'Security toolkits' },
-          ].map((stat) => (
+            { value: 3, label: 'Certifications' },
+            { value: 1, label: 'Professional role' },
+            { value: 6, label: 'Security toolkits' },
+          ].map((stat, i) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl md:text-4xl font-display font-semibold text-cyan">
-                {stat.value}
+                <CountUp end={stat.value} duration={1.6} delay={1.7 + i * 0.15} />
               </div>
               <div className="text-xs md:text-sm text-muted mt-1 font-mono">
                 {stat.label}

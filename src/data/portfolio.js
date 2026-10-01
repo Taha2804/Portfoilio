@@ -71,7 +71,7 @@ export const portfolioData = {
       role: 'IT Support Engineer / Security Analyst L1',
       company: 'Olympus Computers',
       location: 'Pune, Maharashtra',
-      duration: 'Sep 2024 – 2025',
+      duration: 'Sep 2024 – Sep 2025',
       achievements: [
         'Configured and maintained hardware and OS environments across 100+ workstations, sustaining 99% uptime.',
         'Resolved 70+ weekly technical issues spanning networks, operating systems, and end-user devices with a 90–95% first-contact resolution rate.',
@@ -83,6 +83,46 @@ export const portfolioData = {
       ],
       technologies: ['Wireshark', 'Active Directory', 'TCP/IP', 'Linux', 'Windows', 'VMware'],
     },
+  ],
+
+  education: [
+    {
+      degree: 'Bachelor of Computer Applications (BCA)',
+      institution: 'Abeda Inamdar Senior College, Pune',
+      period: '2022 – 2025',
+      score: 'CGPA 8.4 / 10',
+    },
+    {
+      degree: 'Master of Computer Applications (MCA)',
+      institution: 'Pursuing',
+      period: 'In Progress',
+      score: '',
+    },
+    {
+      degree: 'Higher Secondary Certificate (HSC)',
+      institution: 'Maharashtra State Board',
+      period: '2020',
+      score: '62%',
+    },
+    {
+      degree: 'Secondary School Certificate (SSC)',
+      institution: 'Maharashtra State Board',
+      period: '2018',
+      score: '77%',
+    },
+  ],
+
+  achievements: [
+    'Completed hands-on HackTheBox labs covering enumeration, privilege escalation, and basic lateral movement techniques, with findings documented in structured reports.',
+    'Active participant in cybersecurity communities and CTF competitions.',
+    'Created Python scripts to automate reconnaissance tasks and basic vulnerability checks during practice labs.',
+    'Developed a practical understanding of penetration testing workflows, from reconnaissance through to structured reporting.',
+  ],
+
+  languages: [
+    { name: 'English', proficiency: 'Professional' },
+    { name: 'Hindi', proficiency: 'Native' },
+    { name: 'Marathi', proficiency: 'Native' },
   ],
 
   projects: [

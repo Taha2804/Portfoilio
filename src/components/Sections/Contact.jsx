@@ -16,7 +16,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto text-center">
         <ScrollFadeIn>
           <div className="flex items-center justify-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">06</span>
+            <span className="font-mono text-xs tracking-[0.3em] text-cyan">09</span>
             <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
               Get In Touch
             </h2>

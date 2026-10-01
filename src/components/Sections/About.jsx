@@ -18,7 +18,7 @@ export default function About() {
       <div className="max-w-5xl mx-auto">
         <ScrollFadeIn>
           <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">05</span>
+            <span className="font-mono text-xs tracking-[0.3em] text-cyan">08</span>
             <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
               About Me
             </h2>
