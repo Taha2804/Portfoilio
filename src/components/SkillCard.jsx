@@ -3,25 +3,23 @@ import { motion } from 'framer-motion'
 export default function SkillCard({ name, level, index }) {
   return (
     <motion.div
-      className="bg-dark-border border border-dark-border rounded-lg p-6 hover:border-neon-cyan transition-all hover:shadow-lg hover:shadow-neon-cyan/50"
+      className="bg-panel border border-border rounded-sm p-5 hover:border-cyan/60 transition-colors"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.05 }}
+      transition={{ delay: index * 0.05, duration: 0.5 }}
       viewport={{ once: true }}
-      whileHover={{ y: -5 }}
     >
       <div className="flex justify-between items-center mb-3">
-        <h4 className="font-semibold text-neon-cyan">{name}</h4>
-        <span className="text-sm text-gray-400">{level}%</span>
+        <h4 className="font-medium text-text text-sm">{name}</h4>
+        <span className="text-xs font-mono text-faint">{level}%</span>
       </div>
 
-      {/* Proficiency bar */}
-      <div className="w-full bg-dark-bg rounded h-2">
+      <div className="w-full bg-base rounded-sm h-1 overflow-hidden">
         <motion.div
-          className="bg-gradient-to-r from-neon-cyan to-neon-magenta h-2 rounded"
+          className="h-full bg-gradient-to-r from-cyan to-amber"
           initial={{ width: 0 }}
           whileInView={{ width: `${level}%` }}
-          transition={{ duration: 1, delay: index * 0.05 }}
+          transition={{ duration: 0.9, delay: index * 0.05 }}
           viewport={{ once: true }}
         />
       </div>

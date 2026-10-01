@@ -3,17 +3,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dark-bg': '#0a0e27',
-        'dark-border': '#1a1f3a',
-        'neon-cyan': '#00ff88',
-        'neon-magenta': '#ff00ff',
-        'neon-purple': '#9d4edd',
+        base: '#050811',
+        panel: '#0b1226',
+        'panel-2': '#111a33',
+        border: '#1c2744',
+        cyan: '#00e5ff',
+        amber: '#ffb020',
+        text: '#e6e9f2',
+        muted: '#7c8499',
+        faint: '#4a5470',
+        danger: '#ff5d5d',
       },
       fontFamily: {
-        mono: ['Courier New', 'monospace'],
-        terminal: ['Fira Code', 'monospace'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
     },
   },
-  darkMode: 'class',
 }

@@ -7,72 +7,71 @@ export default function Projects() {
   const { projects } = portfolioData
 
   return (
-    <section id="projects" className="py-20 px-6 bg-dark-bg">
+    <section id="projects" className="py-24 px-6 bg-panel relative">
       <div className="max-w-6xl mx-auto">
         <ScrollFadeIn>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-neon-cyan">
-            Projects
-          </h2>
-          <div className="w-16 h-1 bg-neon-magenta mb-12" />
+          <div className="flex items-center gap-4 mb-3">
+            <span className="font-mono text-xs tracking-[0.3em] text-cyan">04</span>
+            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
+              Projects
+            </h2>
+          </div>
+          <div className="w-16 h-px bg-amber mb-12" />
         </ScrollFadeIn>
 
-        {/* Project grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              className="bg-dark-border border border-dark-border rounded-lg overflow-hidden hover:border-neon-cyan transition-all group"
+              className="group bg-panel-2 border border-border rounded-sm p-6 hover:border-cyan/50 transition-colors"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ delay: index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
-              whileHover={{ y: -10 }}
             >
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-neon-cyan mb-3">
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="text-xl font-display font-semibold text-text group-hover:text-cyan transition-colors">
                   {project.name}
                 </h3>
-
-                <p className="text-gray-400 mb-4">
-                  {project.description}
-                </p>
-
-                {/* Highlights */}
-                <div className="mb-4 text-sm space-y-2">
-                  <p className="text-neon-purple">
-                    <span className="font-semibold">Dev:</span> {project.highlights.dev}
-                  </p>
-                  <p className="text-neon-cyan">
-                    <span className="font-semibold">Security:</span> {project.highlights.security}
-                  </p>
-                </div>
-
-                {/* Technologies */}
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {project.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-2 py-1 text-xs bg-neon-cyan/10 text-neon-cyan rounded border border-neon-cyan/30"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-
-                {/* Links */}
-                <div className="flex gap-4">
-                  {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-neon-cyan hover:text-neon-magenta transition"
-                    >
-                      <Github size={18} /> Code
-                    </a>
-                  )}
-                </div>
+                <span className="text-xs font-mono text-faint shrink-0 ml-3">
+                  {project.period}
+                </span>
               </div>
+
+              <p className="text-muted text-sm mb-4 leading-relaxed">
+                {project.description}
+              </p>
+
+              <ul className="text-sm space-y-2 mb-5">
+                {project.highlights.map((highlight, i) => (
+                  <li key={i} className="flex items-start gap-2.5 text-muted">
+                    <span className="text-amber mt-1.5 shrink-0">▸</span>
+                    <span className="leading-relaxed">{highlight}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div className="flex flex-wrap gap-2 mb-5">
+                {project.technologies.map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-0.5 text-xs font-mono text-cyan/80 border border-border rounded-sm"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-cyan hover:text-amber transition-colors"
+                >
+                  <Github size={16} /> View on GitHub
+                </a>
+              )}
             </motion.div>
           ))}
         </div>

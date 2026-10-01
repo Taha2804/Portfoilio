@@ -14,50 +14,57 @@ export default function About() {
   const { about } = portfolioData
 
   return (
-    <section id="about" className="py-20 px-6 bg-[#0d1230]">
+    <section id="about" className="py-24 px-6 bg-panel relative">
       <div className="max-w-5xl mx-auto">
         <ScrollFadeIn>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-neon-cyan">
-            About Me
-          </h2>
-          <div className="w-16 h-1 bg-neon-magenta mb-12" />
-        </ScrollFadeIn>
-
-        {/* Bio */}
-        <ScrollFadeIn direction="left">
-          <div className="bg-dark-border border border-dark-border rounded-lg p-8 mb-12">
-            <p className="text-gray-300 text-lg leading-relaxed font-mono">
-              <span className="text-neon-cyan">{'> '}</span>
-              {about.bio}
-            </p>
+          <div className="flex items-center gap-4 mb-3">
+            <span className="font-mono text-xs tracking-[0.3em] text-cyan">05</span>
+            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
+              About Me
+            </h2>
           </div>
+          <div className="w-16 h-px bg-amber mb-12" />
         </ScrollFadeIn>
 
-        {/* Strengths */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {about.strengths.map((strength, index) => {
-            const Icon = strengthIcons[strength] || Shield
-            return (
-              <motion.div
-                key={index}
-                className="bg-dark-border border border-dark-border rounded-lg p-6 hover:border-neon-purple transition-all"
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.03 }}
-              >
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-neon-purple/20 rounded-lg flex items-center justify-center">
-                    <Icon size={20} className="text-neon-purple" />
-                  </div>
-                  <h3 className="text-lg font-bold text-white">
-                    {strength}
-                  </h3>
-                </div>
-              </motion.div>
-            )
-          })}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
+          {/* Bio */}
+          <ScrollFadeIn direction="left" className="lg:col-span-3">
+            <div className="bg-panel-2 border border-border rounded-sm p-8">
+              <p className="text-muted leading-relaxed text-[1.05rem]">
+                <span className="text-cyan font-mono mr-2">&gt;</span>
+                {about.bio}
+              </p>
+            </div>
+          </ScrollFadeIn>
+
+          {/* Strengths */}
+          <div className="lg:col-span-2">
+            <h3 className="text-sm font-mono text-cyan tracking-wider mb-5">
+              Core Competencies
+            </h3>
+            <div className="space-y-3">
+              {about.strengths.map((strength, index) => {
+                const Icon = strengthIcons[strength] || Shield
+                return (
+                  <motion.div
+                    key={index}
+                    className="flex items-center gap-3 p-4 bg-panel-2 border border-border rounded-sm hover:border-cyan/50 transition-colors"
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                  >
+                    <div className="w-9 h-9 border border-cyan/40 rounded-sm flex items-center justify-center text-cyan shrink-0">
+                      <Icon size={18} />
+                    </div>
+                    <span className="text-text text-sm font-medium">
+                      {strength}
+                    </span>
+                  </motion.div>
+                )
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </section>

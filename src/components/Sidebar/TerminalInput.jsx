@@ -45,7 +45,7 @@ export default function TerminalInput({ onCommand }) {
 
   return (
     <form onSubmit={handleSubmit} className="flex items-center gap-2 px-3 py-2">
-      <span className="text-neon-cyan font-mono text-sm shrink-0">
+      <span className="text-cyan font-mono text-sm shrink-0">
         visitor@portfolio:~$
       </span>
       <input
@@ -54,7 +54,7 @@ export default function TerminalInput({ onCommand }) {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={handleKeyDown}
-        className="flex-1 bg-transparent border-none outline-none text-white font-mono text-sm caret-neon-cyan"
+        className="flex-1 bg-transparent border-none outline-none text-text font-mono text-sm caret-cyan"
         placeholder="type 'help' for commands..."
         spellCheck={false}
         autoComplete="off"
