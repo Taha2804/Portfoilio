@@ -1,9 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 
-export default function TerminalInput({ onCommand }) {
+export default function TerminalInput({ onCommand, onHistoryNav }) {
   const [input, setInput] = useState('')
-  const [history, setHistory] = useState([])
-  const [historyIndex, setHistoryIndex] = useState(-1)
   const inputRef = useRef(null)
 
   const handleSubmit = (e) => {
@@ -11,8 +9,6 @@ export default function TerminalInput({ onCommand }) {
     const trimmed = input.trim()
     if (!trimmed) return
 
-    setHistory((prev) => [...prev, trimmed])
-    setHistoryIndex(-1)
     onCommand(trimmed)
     setInput('')
   }
@@ -20,22 +16,12 @@ export default function TerminalInput({ onCommand }) {
   const handleKeyDown = (e) => {
     if (e.key === 'ArrowUp') {
       e.preventDefault()
-      if (history.length === 0) return
-      const newIndex =
-        historyIndex === -1 ? history.length - 1 : Math.max(0, historyIndex - 1)
-      setHistoryIndex(newIndex)
-      setInput(history[newIndex])
+      const newInput = onHistoryNav('up', input)
+      if (newInput !== undefined) setInput(newInput)
     } else if (e.key === 'ArrowDown') {
       e.preventDefault()
-      if (historyIndex === -1) return
-      const newIndex = historyIndex + 1
-      if (newIndex >= history.length) {
-        setHistoryIndex(-1)
-        setInput('')
-      } else {
-        setHistoryIndex(newIndex)
-        setInput(history[newIndex])
-      }
+      const newInput = onHistoryNav('down', input)
+      if (newInput !== undefined) setInput(newInput)
     }
   }
 

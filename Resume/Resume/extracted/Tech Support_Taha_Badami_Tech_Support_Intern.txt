@@ -1,0 +1,89 @@
+             Taha Aliasgar Badami
+
+                        Technical Support Intern -- L1 Support & Debugging
+
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Entry-level technical support professional with hands-on experience as the first point of contact for 70+
+weekly technical issues across a 100+ workstation environment, achieving a 90­95% first-contact resolution
+rate. Comfortable with Python scripting, Linux, and REST API concepts from coursework and personal
+projects. Brings a calm, detail-oriented approach to debugging, clear written communication, and a habit of
+documenting issues and resolutions for team consistency.
+
+Technical Skills
+
+Support & Troubleshooting: Ticket Triage, L1 Technical Support, Root-Cause Investigation, Escalation,
+
+Knowledge-Base Documentation
+
+Programming & Scripting: Python, SQL
+Systems & Networking: Linux (Kali, Ubuntu), Windows, TCP/IP, DNS, DHCP, LAN/Wi-Fi Trou-
+
+bleshooting
+
+APIs & Web: REST APIs, JWT Authentication
+Tools: Git, Active Directory, VMware, VirtualBox
+
+Work Experience
+
+IT Support Engineer -- Olympus Computers, Pune                  Sep 2024 ­ Sep 2025
+
+  Served as first point of contact for 70+ weekly technical issues via tickets, diagnosing OS, network, and
+    hardware faults with a 90­95% first-contact resolution rate.
+
+  Monitored 100+ workstations for anomalies, proactively flagging and resolving issues to sustain 99%
+    uptime.
+
+  Documented issues, resolutions, and recurring patterns to support consistency and faster diagnosis across
+    the support team.
+
+  Escalated unresolved issues to senior administrators with clear observations and reproduction steps.
+  Managed user accounts, permissions, and Active Directory configuration to maintain secure access control.
+
+Projects
+
+Secure Remote Administration Tool                               Dec 2024 ­ Feb 2025
+
+Tech Stack: Python, Socket Programming, Threading
+
+ Built a Python-based remote administration tool for authorized Windows system management with
+
+multi-client support and remote command execution.
+
+ Implemented authentication and session logging to maintain audit trails, gaining hands-on debugging
+
+    experience across networked, multi-client scenarios.        Jan 2025 ­ Feb 2025
+
+Student Management Portal (Full-Stack)
+
+Tech Stack: React, REST API, JWT Authentication
+
+ Built and debugged a full-stack portal with JWT-based authentication and REST API-driven data flows.
+
+ Applied client-side validation and structured error handling to catch and resolve data inconsistencies.
+
+Penetration Testing Lab Environment                                                      Ongoing
+
+Tech Stack: VirtualBox, Kali Linux, Python
+
+ Wrote small Python scripts to automate reconnaissance and basic validation checks during lab exercises.
+
+ Monitored system logs and network traffic, documenting findings in structured reports.
+
+Education
+
+Bachelor of Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune            2022 ­ 2025
+
+CGPA: 8.4 / 10                                                                                    2022
+                                                                                                  2020
+Higher Secondary Certificate (HSC) -- Maharashtra State Board, 62%
+Secondary School Certificate (SSC) -- Maharashtra State Board, 77%
+
+Certifications
+
+Cisco Certified Network Associate (CCNA) -- Sysap Technologies                           2023
+Certified Ethical Hacker (CEH) -- EC-Council                                             2025
+Computer Hacking Forensic Investigator (CHFI) -- EC-Council                              2026
+

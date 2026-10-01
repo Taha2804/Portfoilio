@@ -1,0 +1,111 @@
+                      Taha Aliasgar Badami
+
+                                 Cybersecurity Analyst | Network Security Engineer
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Early-career IT Support and Cybersecurity professional with experience in desktop support, network troubleshooting,
+and security operations. Holds EC-Council certifications (CEH, CHFI) and CCNA, with hands-on HackTheBox labs
+covering vulnerability assessment, penetration testing, log monitoring, and endpoint security. Proven ability to maintain
+99% uptime across 100+ workstations and resolve 70+ technical issues weekly with a 90% first-contact resolution rate.
+
+Certifications
+
+ · Computer Hacking Forensic Investigator (CHFI) -- EC-Council, 2026
+ · Certified Ethical Hacker (CEH) -- EC-Council, 2025
+ · Cisco Certified Network Associate (CCNA) -- Sysap Technologies, 2023
+
+Technical Skills
+
+    Desktop & Hardware: Install, configure, and maintain desktops, laptops, printers, and peripherals; hardware
+    diagnostics and repair coordination
+    Operating Systems: Windows (troubleshooting, patching, updates), Linux (Kali, Ubuntu), VMware, VirtualBox
+    Networking: TCP/IP, DNS, DHCP, LAN/Wi-Fi troubleshooting, Active Directory, user account and permissions
+    management
+    Security Testing: Penetration Testing, Vulnerability Assessment, Threat Detection, Incident Response, Log
+    Analysis
+    Security Tools: Nmap, Metasploit Framework, Wireshark, Burp Suite, IDS/IPS, Nessus, OpenVAS
+    Programming & Scripting: Python, SQL
+    Frameworks & Standards: OWASP Top 10, MITRE ATT&CK, CIA Triad
+
+Work Experience
+
+IT Support Engineer                                       Sep 2024 ­ Mar 2025
+Olympus Computers, Pune
+
+· Installed, configured, and maintained desktops, laptops, printers, and peripheral devices, achieving 99% uptime
+   across 100+ workstations.
+
+· Resolved 70+ weekly technical issues involving OS errors (Windows/Linux), network faults, and hardware
+   failures with a 90% first-contact resolution rate.
+
+· Managed user accounts, permissions, and Active Directory tasks to ensure secure and organised access control.
+· Diagnosed hardware faults and coordinated repairs and replacements to minimise downtime.
+· Ensured reliable LAN and Wi-Fi connectivity by troubleshooting network configuration and performance issues.
+· Performed regular system updates, security patching, and preventive maintenance across the workstation fleet.
+
+Projects
+
+Penetration Testing Lab Environment                                                 Ongoing
+Tech Stack: VirtualBox, Kali Linux, Metasploitable, DVWA
+
+· Built an isolated penetration testing lab with intentionally vulnerable machines to simulate real-world attack
+   scenarios.
+
+· Performed vulnerability assessments using Nmap, Nessus, and OpenVAS, documenting findings in structured
+   reports.
+· Monitored system logs and network traffic to detect and analyse suspicious activity during lab exercises.
+· Practised exploitation techniques including SQL injection, XSS, privilege escalation, and post-exploitation in
+
+   controlled environments and Hack The Box.
+
+Secure Remote Administration Tool                                              Dec 2024 ­ Feb 2025
+Tech Stack: Python, Socket Programming, Threading
+
+· Built a secure remote administration tool for authorised Windows system management with multi-client support.
+· Implemented authentication mechanisms and session logging to maintain audit trails for system access.
+· Developed features for remote command execution, file transfer, and system monitoring aligned with endpoint
+
+   security best practices.
+· Gained expertise in socket programming, multithreading, secure coding practices, and network protocol design.
+
+Student Management Portal (Full-Stack)                                         Jan 2025 ­ Feb 2025
+Tech Stack: React, Tailwind CSS, REST API, JWT Authentication
+
+· Built a Student Management Portal with full CRUD functionality and JWT-based authentication for secure
+   role-based access.
+
+· Implemented client-side validation for email, phone, PRN, and batch formats aligned with backend rules.
+· Integrated Axios interceptors for centralised API handling and toast notifications for admin actions.
+
+Smart Video Controller                                                         Mar 2024 ­ Aug 2024
+Tech Stack: Python, OpenCV, MediaPipe, Speech Recognition
+
+· Developed a video control application using hand gestures and voice commands, achieving 92% gesture
+   recognition accuracy.
+
+· Integrated speech recognition API for hands-free interaction, reducing user interaction time by 40%.
+· Optimised frame processing to maintain 30 FPS performance on mid-range hardware.
+
+Education
+
+Bachelor of Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune  2022 ­ 2025
+CGPA: 8.4 / 10                                                                          2022
+                                                                                        2020
+Higher Secondary Certificate (HSC) -- Maharashtra State Board
+Percentage: 62%
+
+Secondary School Certificate (SSC) -- Maharashtra State Board
+Percentage: 77%
+
+Achievements
+
+ · Completed hands-on HackTheBox labs covering enumeration, privilege escalation, and basic lateral movement
+    techniques.
+
+ · Developed a practical understanding of penetration testing workflows, from reconnaissance through to structured
+    reporting.
+
+ · Created Python scripts to automate reconnaissance tasks and basic vulnerability checks during practice labs.
+

@@ -1,0 +1,89 @@
+                           Taha Aliasgar Badami
+
+                             Full Stack Developer | React | Python
+
+                    Pune, Maharashtra | 8482843350 | badamitab@gmail.com
+
+Professional Summary
+
+Entry level full stack developer experienced in building responsive web applications using React and
+Python. Familiar with API-driven development, JWT authentication, and modern UI design practices.
+
+Certifications
+
+· Cisco Certified Network Associate (CCNA) -- Sysap Technologies, 2023
+· Certified Ethical Hacker (CEH) -- EC-Council, 2023
+
+Technical Skills
+
+Frontend: React, Tailwind CSS, HTML, CSS, JavaScript
+Backend: Python, REST APIs, JWT Authentication
+Programming: Python, SQL, Java, C++
+Tools: Git, Linux, Docker
+
+Work Experience
+
+IT Support Engineer -- Olympus Computers, Pune                            Sep 2024 ­ Mar 2025
+
+· Configured and maintained hardware and OS environments with 99
+
+· Resolved 70+ weekly technical issues involving networks, operating systems, and end-user devices
+
+with a resolution rate of 95
+
+· Collaborated with system administrators to implement security patches and deliver support initiatives
+
+aligned with SLAs.
+
+Projects
+
+Student Management Portal                                                 Jan 2025 ­ Feb 2025
+
+Tech Stack: React, Tailwind CSS, REST API, JWT Authentication
+
+· Developed a full-stack student management portal allowing administrators to create, update, search,
+
+and delete records through a responsive React interface.
+
+· Built dynamic forms where department and program options update based on user selections using
+
+backend data.
+
+· Implemented JWT-based login flow and protected routes to manage role-based access.
+
+· Applied client-side validation and structured component design to improve usability and maintain-
+
+ability.
+
+Smart Video Controller                                                    Mar 2024 ­ Aug 2024
+
+Tech Stack: Python, OpenCV, MediaPipe
+
+· Created a gesture-controlled media application using computer vision for real-time playback control.
+
+· Integrated hand tracking models to detect gestures for navigation, volume adjustment, and interac-
+
+tion.
+
+· Optimized frame processing pipeline to maintain stable performance on mid-range hardware.
+
+Education
+
+Bachelor of Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune 2022 ­ 2025
+
+CGPA: 8.4 / 10
+
+· Relevant Coursework: Network Security, Ethical Hacking, Database Management Systems, Web Tech-
+
+nologies, Operating Systems
+
+· Active participant in cybersecurity communities and CTF competitions
+
+Higher Secondary Certificate (HSC) -- Maharashtra State Board                                2022
+
+Percentage: 62%
+
+Secondary School Certificate (SSC) -- Maharashtra State Board                                2020
+
+Percentage: 77%
+

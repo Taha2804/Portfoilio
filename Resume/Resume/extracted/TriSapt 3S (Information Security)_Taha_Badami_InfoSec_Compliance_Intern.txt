@@ -1,0 +1,78 @@
+             Taha Aliasgar Badami
+
+                                Information Security & Compliance Intern
+
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Early-career cybersecurity professional with EC-Council certifications (CEH, CHFI) and a foundation in
+information security concepts, control frameworks, and structured technical documentation. Experienced in
+producing clear, structured reports from hands-on security assessments, with strong writing and attention to
+detail. Comfortable using AI-assisted tools for research, drafting, and structuring documentation, and eager
+to build practical exposure to ISMS and compliance frameworks such as ISO 27001 and SOC 2.
+
+Information Security Foundations: Technical Skills                 CEH, CHFI Certifications, OWASP Top 10, MITRE ATT&CK,
+
+Documentation & Reporting: CIA Triad, Security Controls Awareness
+                                             Structured Technical Reporting, Policy/Procedure-Style Writing, Vulner-
+AI-Assisted Workflows: ability Assessment Documentation
+                                      Drafting, Research, and Document Structuring using AI Tools (ChatGPT,
+Claude)
+
+Tools: MS Word, MS Excel, Git
+Analytical Skills: Attention to Detail, Gap Identification, Version-Controlled Documentation
+
+IT Support Engineer Work Experience                                                                       Sep 2024 ­ Sep 2025
+                                -- Olympus Computers, Pune
+
+ Collaborated with system administrators to implement security patches and deliver support initiatives
+
+aligned with SLAs, reinforcing structured, process-driven documentation habits.
+
+ Configured and maintained hardware and OS environments across 100+ workstations, sustaining 99%
+
+uptime through consistent, documented maintenance procedures.
+
+ Resolved 70+ weekly technical issues with a 95% resolution rate, maintaining accurate issue logs to
+
+support consistency across the support team.
+
+Projects
+Penetration Testing Lab Environment
+                                                                                                          Ongoing
+
+Tech Stack: VirtualBox, Kali Linux, Metasploitable, DVWA
+
+ Performed vulnerability assessments using Nmap, Nessus, and OpenVAS, documenting findings in struc-
+
+tured, audit-style reports.
+
+ Practiced translating technical findings into clear written summaries suitable for review and follow-up
+
+action.
+
+ Built and maintained an isolated lab environment, applying consistent documentation practices across
+
+DeereppfeaakteedImexaegrceisDese.tection -- Applied Research (Co-Author)
+Hybrid CNN, Spatial + Frequency-Domain Analysis
+
+ Co-authored a structured research paper analyzing methodology, results, and findings, reaching 83­84%
+
+validation accuracy.
+
+ Wrote and revised formal documentation sections (methodology, results, discussion) to academic writing
+
+standards.
+
+EBdacuhcealotiroonf Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune                     2022 ­ 2025
+SHCeGicgPohAne:dr8aS.r4eyc/oS1nc0hdoaroyl  CCeerrttiiffiiccaattee  (HSC) -- Maharashtra State Board, 62%
+                                                                   (SSC) -- Maharashtra State Board, 77%           2022
+                                                                                                                   2020
+
+Certifications
+
+Computer Hacking Forensic Investigator (CHFI) -- EC-Council                                               2026
+Certified Ethical Hacker (CEH) -- EC-Council                                                              2025
+Cisco Certified Network Associate (CCNA) -- Sysap Technologies                                            2023
+

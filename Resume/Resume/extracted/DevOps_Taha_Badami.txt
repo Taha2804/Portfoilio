@@ -1,0 +1,85 @@
+             Taha Aliasgar Badami
+
+                      DevOps Engineer -- Linux, Infrastructure & Automation
+
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Entry-level engineer with a strong infrastructure and systems foundation, built on Linux administration,
+virtualization (VMware, VirtualBox), networking, and Python scripting. Experienced in maintaining up-
+time and reliability across a 100+ workstation environment through proactive patching, monitoring, and
+troubleshooting. Comfortable with Git, Docker, CI/CD workflows (GitHub Actions, GitLab CI), and AWS,
+with a security-conscious approach drawn from CEH/CHFI certifications.
+
+Technical Skills
+
+Linux & Systems: Linux (Kali, Ubuntu), Windows Server basics, VMware, VirtualBox, System Patching
+
+& Maintenance
+
+Networking: TCP/IP, DNS, DHCP, LAN/Wi-Fi Troubleshooting, Active Directory
+Scripting & Version Control: Python, Git, SQL
+Containers: Docker Fundamentals
+CI/CD & Cloud: GitHub Actions, GitLab CI, AWS
+Monitoring & Troubleshooting: Log Analysis, System/Network Monitoring, Incident Investigation
+
+Work Experience
+
+IT Support Engineer -- Olympus Computers, Pune                  Sep 2024 ­ Mar 2025
+
+  Troubleshot LAN/Wi-Fi connectivity and diagnosed network faults across TCP/IP, DNS, and DHCP
+    configurations to maintain reliable connectivity for 100+ workstations.
+
+  Managed user accounts, permissions, and Active Directory configuration, including basic network access
+    control and group policy tasks.
+
+  Investigated and resolved 70+ weekly issues spanning OS errors, network faults, and hardware failures
+    with a 90% first-contact resolution rate.
+
+  Performed regular system updates and security patching across the fleet, maintaining 99% uptime through
+    proactive monitoring and preventive maintenance.
+
+Projects
+
+Penetration Testing Lab Environment                                            Ongoing
+
+Tech Stack: VirtualBox, Kali Linux, Metasploitable, DVWA
+
+ Built and provisioned an isolated multi-machine lab using VirtualBox, configuring networked virtual
+
+machines to simulate real-world infrastructure.
+
+ Monitored system logs and network traffic to detect and analyze suspicious activity, and performed
+
+vulnerability assessments using Nmap, Nessus, and OpenVAS, documenting findings in structured reports.
+
+Secure Remote Administration Tool                               Dec 2024 ­ Feb 2025
+
+Tech Stack: Python, Socket Programming, Threading
+
+ Built a secure remote administration tool for authorized Windows system management with multi-client
+
+support and remote command execution.
+
+ Implemented authentication mechanisms and session logging to maintain audit trails, gaining hands-on
+
+experience with socket programming, multithreading, and network protocol design -- foundational skills
+
+for infrastructure automation and tooling.
+
+Education
+
+Bachelor of Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune  2022 ­ 2025
+
+CGPA: 8.4 / 10                                                                          2022
+                                                                                        2020
+Higher Secondary Certificate (HSC) -- Maharashtra State Board, 62%
+Secondary School Certificate (SSC) -- Maharashtra State Board, 77%
+
+Certifications
+
+Cisco Certified Network Associate (CCNA) -- Sysap Technologies                    2023
+Certified Ethical Hacker (CEH) -- EC-Council                                      2025
+Computer Hacking Forensic Investigator (CHFI) -- EC-Council                       2026
+

@@ -1,0 +1,86 @@
+             Taha Aliasgar Badami
+
+                Cyber Security Analyst -- Incident Response & Digital Forensics
+
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Cyber security analyst with a Computer Hacking Forensic Investigator (CHFI) certification and hands-on lab
+experience in log analysis, vulnerability assessment, and monitoring/escalation workflows. Co-authored applied
+research on deepfake image detection, building direct experience analyzing media artifacts to distinguish au-
+thentic from manipulated content. Brings a structured, evidence-driven approach to triaging and investigating
+security events, with a foundation in incident response and forensic principles from CHFI coursework and an
+IT support background handling high-volume monitoring and escalation within SLA.
+
+Certifications
+
+Computer Hacking Forensic Investigator (CHFI) -- EC-Council, 2026 | Certified Ethical Hacker (CEH) --
+EC-Council, 2025 | Cisco Certified Network Associate (CCNA) -- Sysap Technologies, 2023
+
+Incident Response & Forensics: Technical Skills                    Evidence Handling & Chain of Custody (CHFI), Log & Event Analysis,
+
+Media/Image Forensic Analysis, Incident Documentation & Escalation
+
+Monitoring & Detection: IDS/IPS, Alert Triage, Network Traffic Analysis, SIEM Concepts
+Security Testing: Vulnerability Assessment, Penetration Testing, Threat Detection
+Security Tools: Wireshark, Nmap, Nessus, Metasploit Framework, Burp Suite
+Operating Systems & Scripting: Linux (Kali/Ubuntu), Windows, Python, SQL, Git
+Frameworks & Standards: MITRE ATT&CK, OWASP Top 10, CIA Triad
+Security Analyst L1 Work Experience
+                               -- Olympus Computers, Pune                                                 Sep 2024 ­ Sep 2025
+
+ Monitored 100+ endpoint workstations for hardware, OS, and network anomalies, investigating and resolv-
+
+ing 70+ weekly incidents with a 90% first-contact resolution rate.
+
+ Reviewed system and event logs to identify root causes of recurring issues, escalating unresolved cases
+
+through defined support channels -- workflow directly analogous to L1 alert triage and escalation.
+
+ Documented incident details, resolution steps, and recurring patterns to strengthen the internal knowledge
+
+base and support consistent triage, sustaining 99% uptime across the environment.
+
+DReeespeafarkcehImage Detection -- Hybrid Dual-Branch CNN (Co-Author)
+Spatial + Frequency-Domain Analysis, Confidence-Based Filtering
+
+ Co-authored applied research analyzing spatial and frequency-domain artifacts to distinguish authentic
+
+images from AI-manipulated media, reaching 83­84% validation accuracy.
+
+ Designed a confidence-based filtering mechanism to flag low-certainty classifications for further review,
+
+mirroring forensic-analysis workflows that separate high-confidence findings from cases needing escalation.
+
+ Trained and iteratively debugged the model under constrained hardware (4GB VRAM), resolving data-
+
+loading, memory, and signal-processing issues.
+
+PPernoejetrcattsion Testing Lab Environment                                                               Ongoing
+
+Tech Stack: VirtualBox, Kali Linux, Metasploitable, DVWA
+
+ Built an isolated lab with multiple intentionally vulnerable machines for hands-on detection and exploitation
+
+practice.
+
+ Performed vulnerability assessments using Nmap, Nessus, and OpenVAS; practiced identifying and ana-
+
+lyzing attack indicators (SQL injection, XSS, privilege escalation, post-exploitation) across controlled lab
+
+SeceunrveiroRnemmenottseaAnddmHainckisTtrhaetiBoonx.Tool                                                  Dec 2024 ­ Feb 2025
+
+Tech Stack: Python, Socket Programming, Threading
+
+ Built a secure remote administration tool for authorized Windows system management with multi-client
+
+support, implementing authentication and session logging to maintain audit trails -- reinforcing log-analysis
+
+and monitoring fundamentals.
+
+EBdacuhcealotiroonf Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune                     2022 ­ 2025
+SHCeGicgPohAne:dr8aS.r4eyc/oS1nc0hdoaroyl  CCeerrttiiffiiccaattee  (HSC) -- Maharashtra State Board, 62%
+                                                                   (SSC) -- Maharashtra State Board, 77%           2022
+                                                                                                                   2020
+

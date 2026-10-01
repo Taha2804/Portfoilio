@@ -1,0 +1,92 @@
+                    Taha Aliasgar Badami
+
+Pune, Maharashtra -- +91-8482843350 -- badamitab@gmail.com -- LinkedIn: Taha-Badami
+
+Professional Summary
+
+Early-career software engineer (BCA, CGPA 8.4/10) with hands-on experience designing, building, and testing full-
+stack applications (React, REST APIs, JWT auth), automation scripts (Python), and networked systems (socket
+programming, multithreading). Comfortable across the SDLC ­ requirement understanding, coding, testing, config-
+uration, and deployment ­ with strong debugging and code-review instincts reinforced by CEH, CHFI, and CCNA
+certifications. A fast learner who picks up new tools and technologies quickly, works well in collaborative/team
+settings, and has a track record of reliability: 99% uptime across 100+ systems and 90% first-contact issue resolution.
+
+Technical Skills
+
+ Languages: Python, SQL, JavaScript, C/C++ (academic)
+ Web/Full-Stack: React, Tailwind CSS, REST APIs, JWT Authentication, Axios, HTML/CSS
+ Core CS: Data Structures & Algorithms, Object-Oriented Programming, DBMS, Operating Systems
+ Engineering Practices: SDLC, Agile fundamentals, Git version control, Unit Testing & Debugging, Code Review,
+
+   CI/CD basics
+ Systems & Networking: Socket Programming, Multithreading, TCP/IP, DNS, DHCP, Active Directory
+ Platforms/Tools: Linux (Kali, Ubuntu), Windows, VMware, VirtualBox, Postman
+ Security Practices: Secure Coding, Authentication & Session Management, Log Analysis, OWASP Top 10, CIA
+
+   Triad
+
+Projects
+
+Student Management Portal (Full-Stack)                                                       Jan 2025 ­ Feb 2025
+
+React, Tailwind CSS, REST API, JWT Authentication
+
+ Built a full CRUD web application with JWT-based authentication for secure, role-based access control.
+
+ Implemented client-side validation for email, phone, and ID formats aligned with backend rules.
+
+ Integrated Axios interceptors for centralised API handling and toast notifications for admin actions.
+
+Secure Remote Administration Tool                                                            Dec 2024 ­ Feb 2025
+
+Python, Socket Programming, Threading
+
+ Built a multi-client remote administration tool with authentication mechanisms and session logging for audit trails.
+
+ Developed remote command execution, file transfer, and system monitoring features.
+
+ Applied socket programming, multithreading, and secure network protocol design principles.
+
+Smart Video Controller                                                                      Mar 2024 ­ Aug 2024
+
+Python, OpenCV, MediaPipe, Speech Recognition
+
+ Built a gesture- and voice-controlled video application, achieving 92% gesture recognition accuracy at 30 FPS.
+
+ Integrated a speech recognition API for hands-free interaction, cutting user interaction time by 40%.
+
+Penetration Testing Lab Environment                                                                      Ongoing
+
+VirtualBox, Kali Linux, Metasploitable, DVWA
+
+ Built and automated an isolated lab environment; wrote Python scripts to automate reconnaissance and vulnera-
+
+bility checks.
+
+ Performed assessments with Nmap, Nessus, and OpenVAS, documenting findings in structured reports.
+
+Work Experience
+
+IT Support Engineer                                                                         Sep 2024 ­ Mar 2025
+
+Olympus Computers, Pune
+
+ Maintained 99% uptime across 100+ workstations; resolved 70+ weekly technical issues with a 90% first-contact
+
+resolution rate.
+
+ Managed user accounts, permissions, and Active Directory tasks for secure access control.
+
+ Performed system updates, security patching, and preventive maintenance across the fleet.
+
+Certifications
+
+ Certified Ethical Hacker (CEH) -- EC-Council, 2025
+ Computer Hacking Forensic Investigator (CHFI) -- EC-Council, 2026
+ CCNA -- Sysap Technologies, 2023
+
+Education                                                                                               2022 ­ 2025
+
+Bachelor of Computer Applications (BCA), Abeda Inamdar Senior College, Pune
+CGPA: 8.4/10
+

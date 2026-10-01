@@ -1,0 +1,81 @@
+             Taha Aliasgar Badami
+
+                            Digital Forensics & Cyber Investigations Intern
+
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Cybersecurity fresher certified as a Computer Hacking Forensic Investigator (CHFI), with hands-on experi-
+ence in structured vulnerability assessment, log analysis, and evidence-style documentation from a self-built
+penetration testing lab. Co-authored applied research on deepfake image detection, developing direct expe-
+rience analyzing digital media artifacts to distinguish authentic from manipulated content. Detail-oriented,
+with strong written documentation habits and a genuine interest in digital forensics and technical investigation
+work.
+
+Digital Forensics Foundations: Technical Skills  Evidence Handling & Chain of Custody Concepts (CHFI), Log & Event
+
+Analysis, Media/Image Forensic Analysis
+
+Security Testing: Vulnerability Assessment, Penetration Testing, Threat Detection
+Security Tools: Nmap, Nessus, Metasploit Framework, Wireshark, Burp Suite, OpenVAS
+Scripting & Documentation: Python, Structured Technical Reporting
+Standards & Frameworks: OWASP Top 10, MITRE ATT&CK, CIA Triad
+
+IT Support Engineer Work Experience                                     Sep 2024 ­ Sep 2025
+                                -- Olympus Computers, Pune
+
+ Investigated and resolved 70+ weekly technical issues spanning OS, network, and hardware faults with a
+   90% first-contact resolution rate.
+
+ Maintained 99% uptime across 100+ workstations through proactive monitoring and preventive mainte-
+   nance.
+
+ Documented issues, resolutions, and recurring patterns to support consistency and faster diagnosis.
+
+RDeeespeafarkcehImage Detection -- Hybrid Dual-Branch CNN (Co-Author)
+Spatial + Frequency-Domain Analysis, Confidence-Based Filtering
+
+ Co-authored applied research analyzing spatial and frequency-domain artifacts to distinguish authentic
+
+images from AI-manipulated media, reaching 83­84% validation accuracy.
+
+ Designed a confidence-based filtering mechanism to flag low-certainty classifications for further review,
+
+mirroring investigative workflows that separate high-confidence findings from cases needing deeper analysis.
+
+PPernoejetrcattsion Testing Lab Environment                                            Ongoing
+
+Tech Stack: VirtualBox, Kali Linux, Metasploitable, DVWA
+
+ Performed vulnerability assessments using Nmap, Nessus, and OpenVAS, documenting findings in struc-
+
+tured, audit-style reports.
+
+ Monitored system logs and network traffic to detect and analyze suspicious activity, translating technical
+
+findings into clear written summaries.
+
+Secure Remote Administration Tool  Wrote small Python scripts to automate reconnaissance and basic checks during lab exercises.
+                                                                                                                    Dec 2024 ­ Feb 2025
+Tech Stack: Python, Socket Programming, Threading
+
+ Built a secure remote administration tool for authorized Windows system management with multi-client
+
+support and remote command execution.
+
+ Implemented authentication mechanisms and session logging to maintain audit trails for system access,
+
+gaining hands-on experience with network protocol design and secure coding practices.
+
+EBdacuhcealotiroonf Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune 2022 ­ 2025
+
+CGPA: 8.4 / 10 | HSC -- Maharashtra State Board, 62% (2022) | SSC -- Maharashtra State Board, 77%
+(2020)
+
+Certifications
+
+Computer Hacking Forensic Investigator (CHFI) -- EC-Council                            2026
+Certified Ethical Hacker (CEH) -- EC-Council                                           2025
+Cisco Certified Network Associate (CCNA) -- Sysap Technologies                         2023
+

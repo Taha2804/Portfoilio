@@ -1,0 +1,103 @@
+                       Taha Aliasgar Badami
+
+                       Cybersecurity Analyst | Network Security Engineer
+
+Pune, Maharashtra | 8482843350 | badamitab@gmail.com | LinkedIn: taha-badami-88b1392a9
+
+Professional Summary
+
+Entry level cybersecurity professional with CEH and CCNA certifications and 6+ months of hands-
+on IT support experience. Specialized in penetration testing, vulnerability assessment, and network
+security with proven ability to reduce system vulnerabilities by 30% through proactive threat analysis.
+Proficient in Python automation and security frameworks with active participation in CTF challenges
+and HackTheBox labs.
+
+Certifications
+
+· Certified Ethical Hacker (CEH) -- EC-Council, 2025
+· Cisco Certified Network Associate (CCNA) -- Sysap Technologies, 2023
+
+Technical Skills
+
+Security Testing: Penetration Testing, Vulnerability Assessment, Threat Detection, Incident Re-
+sponse, Log Analysis
+Security Tools: Nmap, Metasploit Framework, Wireshark, Burp Suite, SIEM (Splunk), IDS/IPS,
+Nessus
+Network Security: VPN Setup, TCP/IP, Routing & Switching, Packet Analysis
+Programming & Scripting: Python, Bash, SQL, JAVA, React, C, C++
+Operating Systems & Tools: Linux (Kali/Ubuntu), Windows Security, VMware, Git, Docker
+Frameworks & Standards: OWASP Top 10, MITRE ATT&CK, CIA Triad
+
+Work Experience
+
+IT Support Engineer -- Olympus Computers, Pune                                 Sep 2024 ­ Mar 2025
+
+· Configured and maintained hardware and OS environments with 99% uptime across 100+ worksta-
+
+tions.
+
+· Resolved 70+ weekly technical issues involving networks, operating systems, and end-user devices
+
+with a resolution rate of 95% first-contact.
+
+· Collaborated with system administrators to implement security patches and deliver support initiatives
+
+aligned with SLAs.
+
+· Performed root-cause analysis and patched critical vulnerabilities, reducing recurring security issues
+
+by 30%.
+
+· Monitored network traffic using Wireshark and documented security incidents for compliance report-
+
+ing.
+
+Projects
+
+Student Management Portal                                                      Jan 2025 ­ Feb 2025
+
+Tech Stack: React, Tailwind CSS, REST API, JWT Authentication
+
+· Built a comprehensive Student Management Portal enabling administrators to manage records with
+
+advanced filtering.
+
+· Implemented dynamic React forms with REST API integrations.
+
+· Added client-side validation aligned with backend rules.
+
+· Integrated JWT authentication and centralized API handling.
+
+Smart Video Controller                                                         Mar 2024 ­ Aug 2024
+
+Tech Stack: Python, OpenCV, MediaPipe, Speech Recognition
+
+· Developed gesture and voice-controlled video application with 92% accuracy.
+
+· Optimized processing to maintain stable 30 FPS performance.
+
+Secure Remote Administration Tool                                              Dec 2024 ­ Feb 2025
+
+Tech Stack: Python, Socket Programming, Threading
+
+· Built secure remote administration system with authentication and session logging.
+· Enabled remote command execution and monitoring capabilities.
+Penetration Testing Lab Environment
+Tech Stack: VirtualBox, Kali Linux, Metasploitable, DVWA
+· Created isolated lab for ethical hacking practice.
+· Conducted vulnerability scans and exploitation exercises.
+
+Education
+
+Bachelor of Computer Applications (BCA) -- Abeda Inamdar Senior College, Pune 2022 ­ 2025
+
+CGPA: 8.4 / 10
+
+Higher Secondary Certificate (HSC) -- Maharashtra State Board    2022
+
+Percentage: 62%
+
+Secondary School Certificate (SSC) -- Maharashtra State Board    2020
+
+Percentage: 77%
+

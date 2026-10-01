@@ -1,0 +1,86 @@
+                         Taha Aliasgar Badami
+
+                                    System Engineer Trainee Candidate
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | linkedin.com/in/Taha-Badami
+
+Professional Summary
+
+BCA graduate and current MCA student with hands-on experience in IT support, system troubleshooting, and end-user
+technical assistance across Windows and Linux environments. Working knowledge of networking fundamentals, Active
+Directory, and programming with Python and SQL. Interested in application support, enterprise systems, and infrastructure
+engineering roles.
+
+Technical Skills         Python, SQL, C
+                         Windows, Linux (Ubuntu, Kali)
+Programming              TCP/IP, DNS, DHCP, LAN/Wi-Fi Troubleshooting
+Operating Systems        Active Directory, User & Permission Management, Windows Installation & Patching, Hard-
+Networking               ware/Software Troubleshooting
+System Administration    Git, Wireshark, Nmap, VMware, VirtualBox
+                         OOP, DBMS, Computer Networks, Operating Systems, SDLC, Information Security
+Tools
+Core Concepts
+
+Work Experience                                Sep 2024 ­ Mar 2025
+
+IT Support Engineer
+Olympus Computers, Pune
+
+ Configured and maintained desktops, laptops, printers, and peripherals, supporting 100+ workstations with 99% uptime.
+ Troubleshot Windows OS issues, network connectivity faults, and hardware failures, resolving 70+ issues weekly with a
+
+   90% first-contact resolution rate.
+ Managed user accounts, permissions, and Active Directory tasks to maintain secure, organized access control.
+ Diagnosed hardware faults and coordinated repairs and replacements to minimize downtime.
+ Installed software, performed system updates and security patching, and carried out preventive maintenance across the
+
+   workstation fleet.
+ Provided end-user technical support for OS, network, and hardware-related queries.
+
+Projects                                       Python, Socket Programming, Threading
+
+Secure Remote Administration Tool
+
+ Built a client-server remote system administration tool in Python using socket programming, supporting multiple concur-
+
+   rent clients through multithreading.
+ Implemented authentication and session logging, along with remote command execution, file transfer, and system moni-
+
+   toring features for authorized Windows system management.
+ Applied secure coding practices and network protocol design principles while developing client-server communication.
+
+Student Management Portal ­ Frontend           React, Tailwind CSS, REST API, JWT
+
+ Built the frontend of a student management system in React, integrating existing backend REST APIs for CRUD opera-
+
+   tions.
+ Integrated JWT-based authentication and implemented role-based UI functionality for secure, role-specific access.
+ Implemented client-side form validation for fields such as email, phone, PRN, and batch formats, aligned with backend
+
+   rules.
+ Used Axios interceptors for centralized API request handling and added toast notifications for admin actions.
+
+IoT-Based Automatic Liquid Medicine Dispenser  ESP32, Embedded C, OLED
+
+ Designed a dose-selection and dispensing system using an ESP32 microcontroller, calibrated peristaltic pump, and OLED
+
+   display for real-time status feedback.
+ Implemented a push-button interface allowing dose selection between 2 mL and 20 mL in 0.5 mL increments.
+ Calculated pump run-time from a calibration constant to control dispensing duration via an L298N motor driver.
+
+Education                                      Currently Pursuing
+
+Master of Computer Applications (MCA)                     2022 ­ 2025
+MIT World Peace University (MIT-WPU), Pune            CGPA: 8.4 / 10
+Bachelor of Computer Applications (BCA)
+Abeda Inamdar Senior College, Pune                                   2022
+Higher Secondary Certificate (HSC)                                    62%
+Maharashtra State Board                                              2020
+Secondary School Certificate (SSC)                                    77%
+Maharashtra State Board
+
+Certifications
+
+  Cisco Certified Network Associate (CCNA) ­ Certification, Cisco (via Sysap Technologies training), 2023
+  Certified Ethical Hacker (CEH) ­ Certification, EC-Council, 2025
+  Computer Hacking Forensic Investigator (CHFI) ­ Certification, EC-Council, 2026
+

@@ -1,0 +1,83 @@
+           Taha Aliasgar Badami
+
+        Program & Operations Coordinator | IT Support & Cybersecurity Background
+
+Pune, Maharashtra | +91-8482843350 | badamitab@gmail.com | LinkedIn: Taha-Badami
+
+Professional Summary
+
+Detail-oriented BCA graduate with hands-on IT support and cybersecurity experience, oering a strong technical foun-
+dation for program and operations coordination in a technology-led environment. Experienced in tracking and resolving
+day-to-day issues, coordinating with vendors and stakeholders, and logging root-cause/resolution details while managing
+100+ workstations at 99% uptime with a 90% rst-contact resolution rate. Holds CEH, CHFI, and CCNA certications,
+bringing technical literacy in cybersecurity, networking, and infrastructure directly relevant to coordinating technology-
+driven programs.
+
+Core Competencies
+
+ Task Coordination & Follow-up: Tracking and prioritising daily issues/requests across 100+ workstations through
+
+   to resolution
+
+ Technical Literacy: Cybersecurity, networking (TCP/IP, DNS, DHCP), Active Directory, Linux, infrastructure,
+
+   incident/log monitoring
+
+ Operational Metrics: Uptime and resolution-rate tracking (99% uptime, 90% rst-contact resolution across 100+
+
+   workstations)
+
+ Stakeholder Coordination: Working with vendors and internal users on hardware repairs, replacements, and access
+
+   requests
+
+ Issue Documentation: Logging root-cause and resolution details; structured ndings reports from vulnerability-
+
+   assessment project work
+
+Certications
+
+ Computer Hacking Forensic Investigator (CHFI)  EC-Council, 2026
+ Certied Ethical Hacker (CEH)  EC-Council, 2025
+ Cisco Certied Network Associate (CCNA)  Sysap Technologies, 2023
+
+Professional Experience                                                                  Sep 2024  Mar 2025
+
+IOTlymSupupspCorotmEpuntgerins,ePerune
+
+ Tracked and resolved day-to-day technical issues and requests across 100+ workstations, maintaining 99% uptime.
+ Handled a weekly volume of 70+ support requests, logging root-cause and resolution details, achieving a 90% rst-
+
+   contact resolution rate.
+ Managed user accounts, permissions, and Active Directory access for secure, organised system access.
+ Coordinated with vendors and internal stakeholders for hardware diagnostics, repairs, and replacement scheduling to
+
+   minimise downtime.
+ Maintained network reliability (LAN/Wi-Fi) through troubleshooting conguration and connectivity issues.
+ Carried out recurring preventive-maintenance and patching cycles across the workstation eet.
+
+Relevant Projects                                                                                         Ongoing
+
+VPierntueatlrBaotxio, nKaTliesLtiinnugx,LMabetaEsnplvoiirtaobnlem, eDnVtWA
+
+ Documented structured vulnerability-assessment reports and ndings logs using Nmap, Nessus, and OpenVAS, trans-
+
+lating technical results into clear, reviewable records.
+
+ Monitored logs and network trac, capturing incident patterns and observations for structured follow-up.
+
+PSeytchuorne, RSoecmkeottPeroAgrdammimninTgo,oTlhreading                                 Dec 2024  Feb 2025
+
+ Built a secure remote administration tool with session logging to track system access.  CGP2A0:282.4 /201205
+                                                                                                  26022%2
+Education                                                                                         27072%0
+
+ABbaecdhaeIlnoarmodfaCr oSmenpiourteCrolAlegpep,lPicuanteions (BCA)
+HMaighharearshSteracoSntadtaerByoCaredrticate (HSC)
+SMeachoanradsahrtyraSScthatoeoBl oCaerdrticate (SSC)
+
+Achievements
+
+ Completed hands-on HackTheBox labs (enumeration, privilege escalation, lateral movement) with ndings documented
+   in structured reports; automated recurring reconnaissance/vulnerability checks via Python scripting.
+
