@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import ParticleNetwork from './components/Animations/ParticleNetwork'
 import DriftingBlobs from './components/Animations/DriftingBlobs'
+import SpiralBackground from './components/Animations/SpiralBackground'
 import ScrollProgress from './components/Animations/ScrollProgress'
 import BackToTop from './components/Animations/BackToTop'
 import Hero from './components/Sections/Hero'
@@ -20,6 +21,7 @@ export default function App() {
       {/* Ambient background layers */}
       <ParticleNetwork />
       <DriftingBlobs />
+      <SpiralBackground />
       <div className="orb orb--cyan" />
       <div className="orb orb--amber" />
       <div className="grid-bg" />
