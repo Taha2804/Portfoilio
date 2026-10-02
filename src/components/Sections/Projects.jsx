@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import { portfolioData } from '../../data/portfolio'
 import { Github } from 'lucide-react'
+import SectionHeader from '../UI/SectionHeader'
+import AnimatedLink from '../UI/AnimatedLink'
 
 export default function Projects() {
   const { projects } = portfolioData
@@ -9,15 +11,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 bg-panel relative">
       <div className="max-w-6xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">05</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              Projects
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-12" />
-        </ScrollFadeIn>
+        <SectionHeader number="05" title="Projects" linkHref="#contact" linkText="View Code" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
@@ -55,7 +49,7 @@ export default function Projects() {
                 {project.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-0.5 text-xs font-mono text-cyan/80 border border-border rounded-sm"
+                    className="px-2 py-1 text-xs font-mono text-cyan/80 border border-border rounded-sm"
                   >
                     {tech}
                   </span>
@@ -63,14 +57,15 @@ export default function Projects() {
               </div>
 
               {project.github && (
-                <a
+                <AnimatedLink
                   href={project.github}
+                  variant="cyan"
+                  className="inline-flex items-center gap-2 text-sm"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-cyan hover:text-amber transition-colors"
                 >
-                  <Github size={16} /> View on GitHub
-                </a>
+                  <Github size={16} /> View Code
+                </AnimatedLink>
               )}
             </motion.div>
           ))}

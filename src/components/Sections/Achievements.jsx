@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import { portfolioData } from '../../data/portfolio'
 import { Trophy, Cpu, GitBranch } from 'lucide-react'
+import SectionHeader from '../UI/SectionHeader'
 
 const iconFor = (text) => {
   const t = text.toLowerCase()
@@ -16,15 +16,7 @@ export default function Achievements() {
   return (
     <section id="achievements" className="py-24 px-6 bg-panel relative">
       <div className="max-w-5xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">06</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              Achievements & Activities
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-14" />
-        </ScrollFadeIn>
+        <SectionHeader number="07" title="Achievements & Activities" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {achievements.map((item, index) => {

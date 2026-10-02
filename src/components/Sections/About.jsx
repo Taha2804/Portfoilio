@@ -1,13 +1,19 @@
 import { motion } from 'framer-motion'
-import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import { portfolioData } from '../../data/portfolio'
 import { Shield, Code, Server, Brain } from 'lucide-react'
+import SectionHeader from '../UI/SectionHeader'
 
 const strengthIcons = {
-  cybersecurity: Shield,
-  development: Code,
-  devops: Server,
-  learning: Brain,
+  'security operations': Shield,
+  'vulnerability assessment': Shield,
+  'penetration testing': Shield,
+  'python scripting': Code,
+  'automation': Code,
+  'network defense': Server,
+  'incident response': Server,
+  'continuous learning': Brain,
+  'problem solving': Brain,
+  'adaptability': Brain,
 }
 
 export default function About() {
@@ -16,26 +22,18 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6 bg-panel relative">
       <div className="max-w-5xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">08</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              About Me
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-12" />
-        </ScrollFadeIn>
+        <SectionHeader number="08" title="About Me" />
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
           {/* Bio */}
-          <ScrollFadeIn direction="left" className="lg:col-span-3">
+          <div className="lg:col-span-3">
             <div className="bg-panel-2 border border-border rounded-sm p-8">
               <p className="text-muted leading-relaxed text-[1.05rem]">
-                <span className="text-cyan font-mono mr-2">&gt;</span>
+                <span className="text-cyan font-mono mr-2">{'>>'}</span>
                 {about.bio}
               </p>
             </div>
-          </ScrollFadeIn>
+          </div>
 
           {/* Strengths */}
           <div className="lg:col-span-2">
@@ -44,7 +42,7 @@ export default function About() {
             </h3>
             <div className="space-y-3">
               {about.strengths.map((strength, index) => {
-                const Icon = strengthIcons[strength] || Shield
+                const Icon = strengthIcons[strength.toLowerCase()] || Shield
                 return (
                   <motion.div
                     key={index}

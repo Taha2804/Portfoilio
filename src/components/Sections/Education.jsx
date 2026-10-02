@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import { portfolioData } from '../../data/portfolio'
 import { GraduationCap } from 'lucide-react'
+import SectionHeader from '../UI/SectionHeader'
 
 export default function Education() {
   const { education } = portfolioData
@@ -9,15 +9,7 @@ export default function Education() {
   return (
     <section id="education" className="py-24 px-6 bg-base relative">
       <div className="max-w-5xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">05</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              Education
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-14" />
-        </ScrollFadeIn>
+        <SectionHeader number="06" title="Education" />
 
         <div className="space-y-5">
           {education.map((edu, index) => (

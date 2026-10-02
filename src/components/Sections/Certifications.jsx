@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import { portfolioData } from '../../data/portfolio'
 import { Award } from 'lucide-react'
+import SectionHeader from '../UI/SectionHeader'
+import AnimatedLink from '../UI/AnimatedLink'
 
 export default function Certifications() {
   const { certifications } = portfolioData
@@ -9,17 +11,9 @@ export default function Certifications() {
   return (
     <section id="certifications" className="py-24 px-6 bg-panel relative">
       <div className="max-w-5xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">03</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              Certifications
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-12" />
-        </ScrollFadeIn>
+        <SectionHeader number="03" title="Certifications" />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {certifications.map((cert, index) => (
             <motion.div
               key={cert.name}

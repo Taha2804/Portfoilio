@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import { portfolioData } from '../../data/portfolio'
 import { Globe } from 'lucide-react'
+import SectionHeader from '../UI/SectionHeader'
 
 const levelColor = {
   Native: 'text-amber',
@@ -13,23 +13,15 @@ export default function Languages() {
   const { languages } = portfolioData
 
   return (
-    <section id="languages" className="py-24 px-6 bg-panel-2 relative">
+    <section id="languages" className="py-24 px-6 bg-panel relative">
       <div className="max-w-5xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">07</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              Languages
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-14" />
-        </ScrollFadeIn>
+        <SectionHeader number="08" title="Languages" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {languages.map((lang, index) => (
             <motion.div
               key={index}
-              className="bg-panel border border-border rounded-sm p-6 hover:border-cyan/50 transition-colors"
+              className="bg-panel-2 border border-border rounded-sm p-6 hover:border-cyan/50 transition-colors"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.12, duration: 0.6 }}

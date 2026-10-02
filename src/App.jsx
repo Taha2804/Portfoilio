@@ -1,6 +1,6 @@
 import Header from './components/Header'
-import TerminalSidebar from './components/Sidebar/TerminalSidebar'
 import ParticleNetwork from './components/Animations/ParticleNetwork'
+import DriftingBlobs from './components/Animations/DriftingBlobs'
 import ScrollProgress from './components/Animations/ScrollProgress'
 import BackToTop from './components/Animations/BackToTop'
 import Hero from './components/Sections/Hero'
@@ -17,14 +17,15 @@ import Contact from './components/Sections/Contact'
 export default function App() {
   return (
     <div className="bg-base text-text min-h-screen overflow-x-hidden relative">
-      <ScrollProgress />
+      {/* Ambient background layers */}
       <ParticleNetwork />
+      <DriftingBlobs />
       <div className="orb orb--cyan" />
       <div className="orb orb--amber" />
       <div className="grid-bg" />
 
+      <ScrollProgress />
       <Header />
-      <TerminalSidebar />
       <BackToTop />
 
       <main className="relative z-10">

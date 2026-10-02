@@ -1,10 +1,19 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { motion, useMotionValue, useSpring } from 'framer-motion'
 
 export default function CountUp({ end, duration = 1.8, delay = 0, suffix = '', prefix = '', className = '' }) {
   const ref = useRef(null)
   const value = useMotionValue(0)
   const spring = useSpring(value, { stiffness: 100, damping: 25 })
+  const [display, setDisplay] = useState('0')
+
+  // Subscribe to spring changes so the component re-renders as the number ticks
+  useEffect(() => {
+    const unsubscribe = spring.on('change', (latest) => {
+      setDisplay(Math.round(latest).toString())
+    })
+    return () => unsubscribe()
+  }, [spring])
 
   useEffect(() => {
     const el = ref.current
@@ -40,9 +49,7 @@ export default function CountUp({ end, duration = 1.8, delay = 0, suffix = '', p
       style={{ display: 'inline-block' }}
     >
       {prefix}
-      <motion.span style={{ display: 'inline-block' }}>
-        {spring.get().toFixed(0)}
-      </motion.span>
+      {display}
       {suffix}
     </motion.span>
   )

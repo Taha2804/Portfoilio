@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import ScrollFadeIn from '../Animations/ScrollFadeIn'
 import SkillRing from '../SkillRing'
 import { portfolioData } from '../../data/portfolio'
+import SectionHeader from '../UI/SectionHeader'
 
 const categoryLabels = {
   cybersecurity: 'Cybersecurity',
@@ -33,32 +34,29 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 px-6 bg-panel relative">
       <div className="max-w-6xl mx-auto">
-        <ScrollFadeIn>
-          <div className="flex items-center gap-4 mb-3">
-            <span className="font-mono text-xs tracking-[0.3em] text-cyan">02</span>
-            <h2 className="text-4xl md:text-5xl font-display font-semibold tracking-tight">
-              Skills & Expertise
-            </h2>
-          </div>
-          <div className="w-16 h-px bg-amber mb-12" />
-        </ScrollFadeIn>
+        <SectionHeader number="02" title="Skills & Expertise" />
 
-        {/* Category tabs */}
-        <div className="flex flex-wrap gap-2 mb-12">
+        {/* Category tabs - pill style */}
+        <motion.div
+          className="flex flex-wrap gap-2 mt-8 mb-12"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
           {categories.map(({ key, label }) => (
             <button
               key={key}
               onClick={() => setActive(key)}
-              className={`px-4 py-2 text-sm font-mono tracking-wider rounded-sm border transition-all ${
+              className={`px-5 py-2.5 text-sm font-mono tracking-wider rounded-full border transition-all ${
                 active === key
-                  ? 'border-cyan bg-cyan/10 text-cyan'
+                  ? 'border-cyan bg-cyan/10 text-cyan shadow-[0_0_20px_rgba(0,229,255,0.15)]'
                   : 'border-border text-muted hover:text-cyan hover:border-cyan/40'
               }`}
             >
               {label}
             </button>
           ))}
-        </div>
+        </motion.div>
 
         {/* Skill rings */}
         <motion.div
@@ -81,17 +79,13 @@ export default function Skills() {
         {/* Category summary */}
         <motion.div
           key={active + '-summary'}
-          className="mt-12 pt-6 border-t border-border flex items-center justify-between text-sm font-mono"
+          className="mt-10 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4 text-sm font-mono"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.15 }}
         >
-          <span className="text-cyan">
-            {categoryLabels[active] || active}
-          </span>
-          <span className="text-faint">
-            {activeItems.length} competencies
-          </span>
+          <span className="text-cyan">{categoryLabels[active] || active}</span>
+          <span className="text-faint">{activeItems.length} competencies</span>
           <span className="text-amber">
             avg {Math.round(activeItems.reduce((s, x) => s + x.level, 0) / activeItems.length)}%
           </span>
